@@ -35,7 +35,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 22
         script: |
-          cd ../..
+          ls
           source venv/bin/activate
           git pull
           cd test_django_app/telegrambot
