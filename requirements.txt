@@ -1,2 +1,0 @@
-Django==4.2.7
-pyTelegramBotAPI==4.14.0
