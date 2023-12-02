@@ -38,7 +38,7 @@ jobs:
           cd root
           source venv/bin/activate
           git pull
-          cd root/test_django_app/telegrambot
+          cd test_django_app/telegrambot
           python manage.py migrate
           python manage.py collectstatic --noinput
           supervisorctl restart all
