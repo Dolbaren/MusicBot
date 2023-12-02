@@ -25,6 +25,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
+        cd telegrambot
         python manage.py test
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
